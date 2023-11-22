@@ -7,7 +7,7 @@ export default {
 			return false;
 		}
 
-		storeValue("rawData",output.data.content);
+		await storeValue("rawData",output.data.content);
 		return this.filterData();
 
 	},

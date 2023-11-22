@@ -45,7 +45,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  const output = await Get_inbox_requests.data;\n  if (!output.responseMeta.success) {\n    showAlert(\"Error in fetching data\");\n    return false;\n  }\n  storeValue(\"rawData\", output.data.content);\n  return Dummy_data.filterData();\n}"
+                "async function () {\n  const output = await Get_inbox_requests.data;\n  if (!output.responseMeta.success) {\n    showAlert(\"Error in fetching data\");\n    return false;\n  }\n  await storeValue(\"rawData\", output.data.content);\n  return Dummy_data.filterData();\n}"
               ],
               "timeoutInMillisecond": 10000
             }
