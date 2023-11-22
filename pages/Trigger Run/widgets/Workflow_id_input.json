@@ -39,7 +39,7 @@
     "parentColumnSpace": 9.203125,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Refund workflow 1\",\n    \"value\": \"655e29723318161e81b0382a\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Refund workflow\",\n    \"value\": \"655e29723318161e81b0382a\"\n  }\n]",
     "key": "d8cmbmefsz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

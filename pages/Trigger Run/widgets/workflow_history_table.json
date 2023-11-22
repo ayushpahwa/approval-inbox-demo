@@ -58,7 +58,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1699872105783,
-    "originalBottomRow": 69,
+    "originalBottomRow": 57,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 68,
     "widgetName": "workflow_history_table",
@@ -189,7 +189,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 41,
+    "originalTopRow": 29,
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

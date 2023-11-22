@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "filterData",
-    "fullyQualifiedName": "Dummy_data.filterData",
+    "name": "generateTestData",
+    "fullyQualifiedName": "Dummy_data.generateTestData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Inbox",
-    "collectionId": "Inbox_Dummy_data",
+    "pageId": "Approval Inbox",
+    "collectionId": "Approval Inbox_Dummy_data",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
@@ -32,13 +32,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
     "createdAt": "2023-11-13T10:54:14Z"
   },
-  "id": "Inbox_Dummy_data.filterData",
+  "id": "Approval Inbox_Dummy_data.generateTestData",
   "deleted": false,
-  "gitSyncId": "6551d21cf7deda2c5c9bf63d_6552005637805f3e9f89f660"
+  "gitSyncId": "6551d21cf7deda2c5c9bf63d_6552005637805f3e9f89f65e"
 }

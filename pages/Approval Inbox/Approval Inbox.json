@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Inbox",
-    "slug": "inbox",
+    "name": "Approval Inbox",
+    "slug": "approval-inbox",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Inbox_Get_inbox_requests",
+              "id": "Approval Inbox_Get_inbox_requests",
               "name": "Get_inbox_requests",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,9 +38,9 @@
           ],
           [
             {
-              "id": "Inbox_Dummy_data.generateTestData",
+              "id": "Approval Inbox_Dummy_data.generateTestData",
               "name": "Dummy_data.generateTestData",
-              "collectionId": "Inbox_Dummy_data",
+              "collectionId": "Approval Inbox_Dummy_data",
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
@@ -53,7 +53,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Inbox",
+        "id": "Approval Inbox",
         "deleted": false,
         "policies": [],
         "userPermissions": []

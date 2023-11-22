@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "Dummy_data",
-    "pageId": "Inbox",
+    "pageId": "Approval Inbox",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -14,7 +14,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Inbox_Dummy_data",
+  "id": "Approval Inbox_Dummy_data",
   "deleted": false,
   "gitSyncId": "6551d21cf7deda2c5c9bf63d_6552005637805f3e9f89f664"
 }

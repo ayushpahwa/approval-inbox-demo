@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Inbox",
+    "pageId": "Approval Inbox",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +52,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-13T10:51:18Z"
   },
-  "id": "Inbox_Test_create_inbox_request",
+  "id": "Approval Inbox_Test_create_inbox_request",
   "deleted": false,
   "gitSyncId": "6551d21cf7deda2c5c9bf63d_6551ffa637805f3e9f89f659"
 }
