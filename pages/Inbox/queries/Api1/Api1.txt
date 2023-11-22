@@ -1,0 +1,6 @@
+{
+	"workflowId": "string",
+ "runId": {{this.params.runId}},
+ "requestId": "{{this.params.id}}",
+ "resolution": ""
+}

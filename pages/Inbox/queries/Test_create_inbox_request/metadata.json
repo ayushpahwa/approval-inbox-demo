@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"workflowId\": \"testId\",\n    \"data\": {\n        \"users\": [\n            \"srix-cs-agent-mock\",\n            \"edf@gmail.com\"\n        ],\n        \"groups\": [\n            \"CustomerSupportAgents\",\n            \"CustomerSupportManagers\"\n        ],\n        \"title\": \"Refund Request\",\n        \"message\": \"`Hi Customer Support agent. Customer. ${data.recipient} is requesting refund`\"\n    },\n    \"userInfo\":{\n        \"email\":\"testuser@gmail.com\"\n    }\n}",
+      "body": "{\n    \"workflowId\": \"655e29723318161e81b0382a\",\n    \"data\": {\n        \"users\": [\n            \"srix-cs-agent-mock\",\n            \"edf@gmail.com\"\n        ],\n        \"groups\": [\n            \"CustomerSupportAgents\",\n            \"CustomerSupportManagers\"\n        ],\n        \"title\": \"Refund Request\",\n        \"message\": \"`Hi Customer Support agent. Customer. ${data.recipient} is requesting refund`\"\n    },\n    \"userInfo\":{\n        \"email\":\"testuser@gmail.com\"\n    }\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],

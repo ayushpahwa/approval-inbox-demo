@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "65576aa10f64690c0b1c7482",
+    "defaultOptionValue": "655e29723318161e81b0382a",
     "animateLoading": true,
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -39,7 +39,7 @@
     "parentColumnSpace": 9.203125,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Refund workflow 1\",\n    \"value\": \"65576aa10f64690c0b1c7482\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Refund workflow 1\",\n    \"value\": \"655e29723318161e81b0382a\"\n  }\n]",
     "key": "d8cmbmefsz",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

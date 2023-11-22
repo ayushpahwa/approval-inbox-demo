@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"workflowId\": \"65576aa10f64690c0b1c7482\",\n\t\"requestId\": \"{{this.params.id}}\",\n\t\"resolution\": \"{{this.params.isApproved?\"Approved\":\"Reject\"}}\",\n\t\"resolutionReason\": \"This is not implemented\"\n}",
+      "body": "{\n\t\"workflowId\": \"655e29723318161e81b0382a\",\n\t\"requestId\": \"{{this.params.id}}\",\n\t\"resolution\": \"{{this.params.isApproved?\"Approved\":\"Reject\"}}\",\n\t\"resolutionReason\": \"This is not implemented\"\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],

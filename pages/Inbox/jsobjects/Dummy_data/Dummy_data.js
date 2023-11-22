@@ -19,10 +19,12 @@ export default {
 			console.log(datum.resolution)
 			const resolutionStatusFilterOutput = datum.resolutionStatus.toLowerCase() === statusFilter;
 			const resolutionFilterOutput = (responseFilter==="pending"?true:datum.resolution === responseFilter);
+			const workflowIdCheck = datum.workflowId === "655e29723318161e81b0382a";
 			return (
-				resolutionStatusFilterOutput && resolutionFilterOutput
+				resolutionStatusFilterOutput && resolutionFilterOutput && workflowIdCheck
 			)});
 		storeValue("filteredData",filteredData);
+		showAlert("New data fetched")
 		return filteredData;
 	}
 }
