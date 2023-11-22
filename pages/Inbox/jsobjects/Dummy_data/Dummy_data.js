@@ -1,6 +1,7 @@
 export default {
 	myVar2: {},
 	async generateTestData () {
+		await Get_inbox_requests.run();
 		const output = await Get_inbox_requests.data;
 		if(!output.responseMeta.success){
 			showAlert("Error in fetching data");
