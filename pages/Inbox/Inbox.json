@@ -1,0 +1,58 @@
+{
+  "unpublishedPage": {
+    "name": "Inbox",
+    "slug": "inbox",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 650,
+          "containerStyle": "none",
+          "snapRows": 67,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 690,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Inbox_Dummy_data.generateTestData",
+              "name": "Dummy_data.generateTestData",
+              "collectionId": "Inbox_Dummy_data",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const output = [];\n  let index;\n  for (index = 0; index < 20; index++) {\n    const isPending = index % 2 !== 0;\n    let response = \"Pending\";\n    if (!isPending) {\n      response = index % 4 === 0 ? \"Approved\" : \"Rejected\";\n    }\n    const test = {\n      id: `#14561263${index}`,\n      title: \"This can be the subject of the message\",\n      \"time\": \"2 hours ago\",\n      \"body\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. This could also be some more information presented as a link. View the external link.\",\n      \"status\": `${isPending ? \"Pending\" : \"Completed\"}`,\n      \"response\": `${response}`\n    };\n    output.push(test);\n  }\n  ;\n  storeValue(\"rawData\", output);\n  return Dummy_data.filterData();\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Inbox",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6551d21cf7deda2c5c9bf63d_6551d241f7deda2c5c9bf64a"
+}

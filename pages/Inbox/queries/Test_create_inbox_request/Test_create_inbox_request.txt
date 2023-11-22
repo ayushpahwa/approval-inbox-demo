@@ -1,0 +1,18 @@
+{
+    "workflowId": "testId",
+    "data": {
+        "users": [
+            "srix-cs-agent-mock",
+            "edf@gmail.com"
+        ],
+        "groups": [
+            "CustomerSupportAgents",
+            "CustomerSupportManagers"
+        ],
+        "title": "Refund Request",
+        "message": "`Hi Customer Support agent. Customer. ${data.recipient} is requesting refund`"
+    },
+    "userInfo":{
+        "email":"testuser@gmail.com"
+    }
+}

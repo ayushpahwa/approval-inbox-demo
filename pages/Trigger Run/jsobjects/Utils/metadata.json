@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Trigger Run",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "runHistoryDemo",
+        "value": "[{\n  workflowId: \"1\",\n  \"name\": \"Approval workflow 1\",\n  \"triggerDate\": \"11/11/2023\"\n}, {\n  workflowId: \"2\",\n  \"name\": \"Approval workflow 2\",\n  \"triggerDate\": \"11/13/2023\"\n}]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Trigger Run_Utils",
+  "deleted": false,
+  "gitSyncId": "6551d21cf7deda2c5c9bf63d_6551fc8b37805f3e9f89f616"
+}

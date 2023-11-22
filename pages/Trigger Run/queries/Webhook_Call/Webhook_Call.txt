@@ -1,0 +1,6 @@
+{
+	workflowCode: "",
+	actionMap: {
+		GetCustomerData: "6541fd01f7deda2c5c9bf55b"
+	}
+}

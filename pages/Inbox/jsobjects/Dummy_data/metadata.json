@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Dummy_data",
+    "pageId": "Inbox",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Inbox_Dummy_data",
+  "deleted": false,
+  "gitSyncId": "6551d21cf7deda2c5c9bf63d_6552005637805f3e9f89f664"
+}
