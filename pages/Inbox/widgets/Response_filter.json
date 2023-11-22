@@ -19,7 +19,7 @@
     "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{Status_filter.selectedOptionValue === \"Completed\"}}",
+    "isVisible": "{{Status_filter.selectedOptionValue === \"resolved\"}}",
     "version": 1,
     "tags": [
         "Suggested",
