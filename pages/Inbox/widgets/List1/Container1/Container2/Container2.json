@@ -77,7 +77,7 @@
     "widgetId": "wjphv01ozy",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": "{{currentItem.status === \"Pending\"}}",
+    "isVisible": "{{currentItem.resolutionStatus.toLowerCase() === \"pending\"}}",
     "version": 1,
     "parentId": "hplwsh8nl4",
     "tags": ["Layout"],
