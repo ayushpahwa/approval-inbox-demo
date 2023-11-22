@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Proxy_pass_resolve",
     "datasource": {
       "name": "Appsmith RTS Server",
       "pluginId": "restapi-plugin",
@@ -56,9 +56,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-22T16:27:13Z"
   },
-  "id": "Inbox_Api1",
+  "id": "Inbox_Proxy_pass_resolve",
   "deleted": false,
   "gitSyncId": "655e265f3318161e81b03779_655e2be13318161e81b03860"
 }

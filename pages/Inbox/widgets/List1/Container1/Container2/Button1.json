@@ -3,9 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Button1",
-    "onClick": "{{Inbox_request_resolution.run({\n  \"id\": currentItem.id,\n  \"isApproved\": true\n}).then(() => {\n  showAlert('Done', 'success');\n  Api1.run({\n    \"id\": currentItem.id,\n    \"runId\": currentItem.runId\n  }).then(() => {\n    showAlert('success');\n  });\n  Dummy_data.generateTestData();\n}).catch(() => {\n  showAlert('Failed to reply', 'error');\n  Api1.run({\n    \"id\": currentItem.id,\n    \"runId\": currentItem.runId\n  }).then(() => {\n    showAlert('success');\n  });\n  Dummy_data.generateTestData();\n});}}",
+    "onClick": "{{Inbox_request_resolution.run({\n  \"id\": currentItem.id,\n  \"isApproved\": true\n}).then(() => {\n  showAlert('Done', 'success');\n  Proxy_pass_resolve.run({\n    \"id\": currentItem.id,\n    \"runId\": currentItem.runId\n  }).then(() => {\n    showAlert('success');\n  });\n  Dummy_data.generateTestData();\n}).catch(() => {\n  Proxy_pass_resolve.run({\n    \"id\": currentItem.id,\n    \"runId\": currentItem.runId\n  }).then(() => {\n    showAlert('success');\n  });\n  Dummy_data.generateTestData();\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [

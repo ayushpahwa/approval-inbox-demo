@@ -25,7 +25,7 @@ export default {
 				resolutionStatusFilterOutput && resolutionFilterOutput && workflowIdCheck
 			)});
 		storeValue("filteredData",filteredData);
-		showAlert("New data fetched")
+		// showAlert("New data fetched")
 		return filteredData;
 	}
 }
