@@ -44,7 +44,7 @@
     "minWidth": 450,
     "isVisible": "{{currentItem.resolutionStatus===\"RESOLVED\"}}",
     "fontStyle": "BOLD",
-    "textColor": "{{currentItem.response===\"Rejected\"?\"#ef4444\":\"#22c55e\"}}",
+    "textColor": "{{currentItem.resolution.toLowerCase()===\"reject\"?\"#ef4444\":\"#22c55e\"}}",
     "version": 1,
     "parentId": "hplwsh8nl4",
     "tags": [

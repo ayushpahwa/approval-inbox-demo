@@ -43,7 +43,7 @@
     "parentColumnSpace": 13.234375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"All\",\n    \"code\": \"All\"\n  },\n\t{\n    \"name\": \"Approved\",\n    \"code\": \"Approved\"\n  },\n  {\n    \"name\": \"Rejected\",\n    \"code\": \"Rejected\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"All\",\n    \"code\": \"All\"\n  },\n\t{\n    \"name\": \"Approved\",\n    \"code\": \"Approved\"\n  },\n  {\n    \"name\": \"Rejected\",\n    \"code\": \"Reject\"\n  }\n]",
     "key": "03iwuwpir2",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
