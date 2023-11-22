@@ -1,0 +1,6 @@
+{
+	"workflowId": "65576aa10f64690c0b1c7482",
+	"requestId": "{{this.params.id}}",
+	"resolution": "{{this.params.isApproved?"Approved":"Reject"}}",
+	"resolutionReason": "This is not implemented"
+}

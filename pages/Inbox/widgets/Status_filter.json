@@ -6,7 +6,7 @@
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "Pending",
+    "defaultOptionValue": "pending",
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
@@ -39,7 +39,7 @@
     "parentColumnSpace": 13.234375,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"name\": \"Pending\",\n    \"code\": \"Pending\"\n  },\n  {\n    \"name\": \"Completed\",\n    \"code\": \"Completed\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"name\": \"Pending\",\n    \"code\": \"pending\"\n  },\n  {\n    \"name\": \"Completed\",\n    \"code\": \"resolved\"\n  }\n]",
     "key": "03iwuwpir2",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

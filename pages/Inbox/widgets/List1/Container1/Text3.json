@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.body}}",
+    "text": "{{currentItem.description}}",
     "key": "i7ynnkz6fs",
     "isDeprecated": false,
     "rightColumn": 44,

@@ -28,6 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Inbox_Get_inbox_requests",
+              "name": "Get_inbox_requests",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Inbox_Dummy_data.generateTestData",
               "name": "Dummy_data.generateTestData",
               "collectionId": "Inbox_Dummy_data",
@@ -35,7 +45,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "function () {\n  const output = [];\n  let index;\n  for (index = 0; index < 20; index++) {\n    const isPending = index % 2 !== 0;\n    let response = \"Pending\";\n    if (!isPending) {\n      response = index % 4 === 0 ? \"Approved\" : \"Rejected\";\n    }\n    const test = {\n      id: `#14561263${index}`,\n      title: \"This can be the subject of the message\",\n      \"time\": \"2 hours ago\",\n      \"body\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. This could also be some more information presented as a link. View the external link.\",\n      \"status\": `${isPending ? \"Pending\" : \"Completed\"}`,\n      \"response\": `${response}`\n    };\n    output.push(test);\n  }\n  ;\n  storeValue(\"rawData\", output);\n  return Dummy_data.filterData();\n}"
+                "async function () {\n  const output = await Get_inbox_requests.data;\n  if (!output.responseMeta.success) {\n    showAlert(\"Error in fetching data\");\n    return false;\n  }\n  storeValue(\"rawData\", output.data.content);\n  return Dummy_data.filterData();\n}"
               ],
               "timeoutInMillisecond": 10000
             }

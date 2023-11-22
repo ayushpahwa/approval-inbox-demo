@@ -3,7 +3,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Button1",
+    "onClick": "{{Inbox_request_resolution.run({\n  \"id\": currentItem.id,\n  \"isApproved\": true\n}).then(() => {\n  showAlert('Done', 'success');\n}).catch(() => {\n  showAlert('Failed to reply', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "dynamicPropertyPathList": [],
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -18,7 +20,7 @@
     "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 8.796875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

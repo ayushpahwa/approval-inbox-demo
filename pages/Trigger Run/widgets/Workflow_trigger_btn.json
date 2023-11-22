@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 17,
     "widgetName": "Workflow_trigger_btn",
+    "onClick": "{{Webhook_Call.run().then(() => {\n  showAlert('Success', 'success');\n}).catch(() => {\n  showAlert('Fail', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",
@@ -20,7 +21,7 @@
     "mobileRightColumn": 16,
     "animateLoading": true,
     "parentColumnSpace": 9.21875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 39,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

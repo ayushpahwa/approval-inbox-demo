@@ -15,7 +15,7 @@
     },
     "pageId": "Trigger Run",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 100000,
       "paginationType": "NONE",
       "path": "/workflowProxy/{{Workflow_id_input.selectedOptionValue}}/run",
       "headers": [],
@@ -47,7 +47,9 @@
       }
     ],
     "isValid": true,
-    "invalids": [],
+    "invalids": [
+      "'Query timeout' field must be an integer between 0 and 60000"
+    ],
     "messages": [],
     "jsonPathKeys": [
       "Workflow_id_input.selectedOptionValue"
