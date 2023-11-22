@@ -2,16 +2,16 @@
   "workflowDef": "{\n  async  executeWorkflow(data) {\n    const custId = await QueryGetCustId.run();\n\n\n    await SendEmailRequestAck.run();\n\n\n    const approval = await InboxApprovalRequest.run({\n      \"requestToUsers\": [\n         \"neosrix+2@gmail.com\", \n         \"ayush@appsmith.com\"\n      ],\n      \"requestToGroups\": [\n          \"ayush@appsmith.com\"\n      ],\n      \"title\": \"Refund Request\",\n      \"description\": \"Hi Customer Support agent. Customer is requesting refund\",\n      \"userInfo\": {\n          \"email\": \"ayush@appsmith.com\"\n      },\n      \"allowedResolutions\": [\n          \"Approved\",\n          \"Reject\"\n      ]\n  \n    });\n\n\n    if (approval === \"ACCEPTED\") {\n      await SendEmailRequestApproved.run();\n    } else if (approval === \"REJECTED\") {\n      await SendEmailRequestRejected.run();\n    }\n\n\n    return true;\n  }\n}\n\n\n",
   "actionMap": {
     "QueryGetCustId": {
-      "actionId": "655763cd64bd974ed3711093"
+      "actionId": "655e27dc3318161e81b037ce"
     },
     "SendEmailRequestAck": {
-      "actionId": "655e03b0e1467e7697e41237"
+      "actionId": "655e27dc3318161e81b037d1"
     },
     "SendEmailRequestApproved": {
-      "actionId": "655e0440e1467e7697e4123d"
+      "actionId": "655e27dc3318161e81b037d2"
     },
     "SendEmailRequestRejected": {
-      "actionId": "655e048fe1467e7697e41244"
+      "actionId": "655e27dc3318161e81b037d3"
     },
     "InboxApprovalRequest": {}
   },
