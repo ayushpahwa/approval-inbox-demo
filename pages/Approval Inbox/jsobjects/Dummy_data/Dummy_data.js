@@ -20,7 +20,7 @@ export default {
 			console.log(datum.resolution)
 			const resolutionStatusFilterOutput = datum.resolutionStatus.toLowerCase() === statusFilter;
 			const resolutionFilterOutput = (["pending","all"].includes(responseFilter)?true:datum.resolution?.toLowerCase() === responseFilter);
-			const workflowIdCheck = datum.workflowId === "655e29723318161e81b0382a";
+			const workflowIdCheck = datum.workflowId === "65601894c25d3e56814281b6";
 			return (
 				resolutionStatusFilterOutput && resolutionFilterOutput && workflowIdCheck
 			)});

@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"workflowId\": \"string\",\n \"runId\": {{this.params.runId}},\n \"requestId\": \"{{this.params.id}}\",\n \"resolution\": \"\"\n}",
+      "body": "{\n\t\"workflowId\": \"string\",\n \"runId\": \"{{this.params.runId}}\",\n \"requestId\": \"{{this.params.id}}\",\n \"resolution\": \"\"\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
